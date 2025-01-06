@@ -6,7 +6,7 @@
  delivery assignments.
 
 # Features
-1.Courier Management: Create, update, track, and manage couriers.
+1.Courier Management: Create, update, track, and manage couriers./n
 2.Delivery Boy Assignment: Assign delivery boys to couriers and prevent double assignments.
 3.Tracking Updates: Track the current status and location of each courier.
 4.Real-time Status Updates: View courier status such as Pending, Shipped, or Delivered.
