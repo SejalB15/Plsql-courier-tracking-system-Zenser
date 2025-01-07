@@ -6,22 +6,22 @@
  delivery assignments.
 
 ## Features
-1.Courier Management: Create, update, track, and manage couriers.<br />
-2.Delivery Boy Assignment: Assign delivery boys to couriers and prevent double assignments.<br />
-3.Tracking Updates: Track the current status and location of each courier.<br />
-4.Real-time Status Updates: View courier status such as Pending, Shipped, or Delivered.<br />
+1. Courier Management: Create, update, track, and manage couriers.<br />
+2. Delivery Boy Assignment: Assign delivery boys to couriers and prevent double assignments.<br />
+3. Tracking Updates: Track the current status and location of each courier.<br />
+4. Real-time Status Updates: View courier status such as Pending, Shipped, or Delivered.<br />
 
 ## Database Schema
-1.Couriers: Stores courier information including sender and receiver details.<br />
-2.Delivery_Boy: Manages delivery boy information and assignment status.<br />
-3.Tracking: Tracks courier movements and status updates.<br />
-4.Courier_Status: Stores the status history of couriers.<br />
-5.Customers: Stores customer information for sending and receiving couriers.<br />
-Locations: Stores detailed location data for couriers.<br />
+1. Couriers: Stores courier information including sender and receiver details.<br />
+2. Delivery_Boy: Manages delivery boy information and assignment status.<br />
+3. Tracking: Tracks courier movements and status updates.<br />
+4. Courier_Status: Stores the status history of couriers.<br />
+5. Customers: Stores customer information for sending and receiving couriers.<br />
+6. Locations: Stores detailed location data for couriers.<br />
 
 ## Relations
-1.Couriers ↔ Tracking: One-to-Many relationship (a courier has multiple tracking updates).<br />
-2.Delivery_Boy ↔ Couriers: One-to-One relationship (each delivery boy can be assigned to only one courier at a time).<br />
+1. Couriers ↔ Tracking: One-to-Many relationship (a courier has multiple tracking updates).<br />
+2. Delivery_Boy ↔ Couriers: One-to-One relationship (each delivery boy can be assigned to only one courier at a time).<br />
 3.Couriers ↔ Courier_Status: One-to-Many relationship (each courier has multiple status updates).<br />
 4.Tracking ↔ Locations: One-to-Many relationship (tracking records linked to locations).<br />
 
