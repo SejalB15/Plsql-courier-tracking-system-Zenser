@@ -42,6 +42,6 @@ Trigger-based checks ensure data integrity and prevent errors such as double ass
 Adding an admin interface for easier management.<br />
 Implementing a mobile application for real-time courier tracking.<br />
 
-Name: Bajaj Sejal Dipak<br />
-Role: Computer Engineering Student (3rd Year)<br />
-College: Amrutvahini College of Engineering, Sangamner<br />
+## Name: Bajaj Sejal Dipak<br />
+## Role: Computer Engineering Student (3rd Year)<br />
+## College: Amrutvahini College of Engineering, Sangamner<br />
