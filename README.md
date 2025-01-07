@@ -7,23 +7,23 @@
 
 ## Features
 1.Courier Management: Create, update, track, and manage couriers.<br />
-2.Delivery Boy Assignment: Assign delivery boys to couriers and prevent double assignments.
-3.Tracking Updates: Track the current status and location of each courier.
-4.Real-time Status Updates: View courier status such as Pending, Shipped, or Delivered.
+2.Delivery Boy Assignment: Assign delivery boys to couriers and prevent double assignments.<br />
+3.Tracking Updates: Track the current status and location of each courier.<br />
+4.Real-time Status Updates: View courier status such as Pending, Shipped, or Delivered.<br />
 
 ## Database Schema
-1.Couriers: Stores courier information including sender and receiver details.
-2.Delivery_Boy: Manages delivery boy information and assignment status.
-3.Tracking: Tracks courier movements and status updates.
-4.Courier_Status: Stores the status history of couriers.
-5.Customers: Stores customer information for sending and receiving couriers.
-Locations: Stores detailed location data for couriers.
+1.Couriers: Stores courier information including sender and receiver details.<br />
+2.Delivery_Boy: Manages delivery boy information and assignment status.<br />
+3.Tracking: Tracks courier movements and status updates.<br />
+4.Courier_Status: Stores the status history of couriers.<br />
+5.Customers: Stores customer information for sending and receiving couriers.<br />
+Locations: Stores detailed location data for couriers.<br />
 
 ## Relations
-1.Couriers ↔ Tracking: One-to-Many relationship (a courier has multiple tracking updates).
-2.Delivery_Boy ↔ Couriers: One-to-One relationship (each delivery boy can be assigned to only one courier at a time).
-3.Couriers ↔ Courier_Status: One-to-Many relationship (each courier has multiple status updates).
-4.Tracking ↔ Locations: One-to-Many relationship (tracking records linked to locations).
+1.Couriers ↔ Tracking: One-to-Many relationship (a courier has multiple tracking updates).<br />
+2.Delivery_Boy ↔ Couriers: One-to-One relationship (each delivery boy can be assigned to only one courier at a time).<br />
+3.Couriers ↔ Courier_Status: One-to-Many relationship (each courier has multiple status updates).<br />
+4.Tracking ↔ Locations: One-to-Many relationship (tracking records linked to locations).<br />
 
 ## Technologies Used
 PL/SQL for stored procedures, triggers, and handling database operations.
@@ -39,9 +39,9 @@ Use PL/SQL scripts for adding, updating, and deleting couriers, delivery boys, a
 Trigger-based checks ensure data integrity and prevent errors such as double assignments.
 
 ## Future Enhancements
-Adding an admin interface for easier management.
-Implementing a mobile application for real-time courier tracking.
+Adding an admin interface for easier management.<br />
+Implementing a mobile application for real-time courier tracking.<br />
 
-Name: Bajaj Sejal Dipak
-Role: Computer Engineering Student (3rd Year)
-College: Amrutvahini College of Engineering, Sangamner
+Name: Bajaj Sejal Dipak<br />
+Role: Computer Engineering Student (3rd Year)<br />
+College: Amrutvahini College of Engineering, Sangamner<br />
